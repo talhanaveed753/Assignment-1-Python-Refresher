@@ -10,6 +10,8 @@ Files:
 [**outputFor-fibPy (TXT)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/outputFor-fibPy.txt) - Contains the program output for fib.py with time taken to calculate each nth fib term and each nth fib value (0-100).<br>
 [**graphForFibCalculations (PNG)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/graphForFibCalculations.png) - Graph that is output after fib.py completes successfully, contains line graph showing time relation to fib calcs.<br>
 
+![Screenshot of the line graph for nth fibonacci number vs the fiboncci calculation time for the nth number.](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/graphForFibCalculations.png)
+
 I noticed the calculation time between fib terms 77 and 78 had a significant jump, I was unable to determine how to optimize the program any further.
 
 I experienced some difficulty with importing functools and matplotlib and with figuring out how to use venv.
