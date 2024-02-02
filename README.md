@@ -3,12 +3,12 @@ Coding Homework for TICS1
 
 Files:
 
-echo.py - Code for echo program, simulates a echo in the mountains
-codeAndOutputFor-echoPy (PNG) - Contains the code and the program output for echo.py after running with inputs "echo 123" and "Helloooo"
-fib.py - Code to calculate nth fib terms and time each consecutive calculation
-codeFor-fibPy (PNG) - Contains the code for fib.py which calculates how long each nth fib number takes to calculate (to 100) and graphs the data
-outputFor-fibPy (TXT) - Contains the program output for fib.py with time taken to calculate each nth fib term and each nth fib value
-graphForFibCalculations (PNG) - Graph that is output after fib.py completes successfully, contains line graph showing time relation to fib calcs
+[**echo.py**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/echo.py) - Code for echo program, simulates a echo in the mountains.<br>
+[**codeAndOutputFor-echoPy (PNG)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/codeAndOutputFor-echoPy.png) - Contains the code and the program output for echo.py after running with inputs "echo 123" and "Helloooo".<br>
+[**fib.py**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/fib.py) - Code to calculate nth fib terms (to 100), time each consecutive calculation, and graph the data.<br>
+[**codeFor-fibPy (PNG)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/codeFor-fibPy.png) - Contains and image for fib.py code.<br>
+[**outputFor-fibPy (TXT)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/outputFor-fibPy.txt) - Contains the program output for fib.py with time taken to calculate each nth fib term and each nth fib value (0-100).<br>
+[**graphForFibCalculations (PNG)**](https://github.com/talhanaveed753/Assignment-1-Python-Refresher/blob/main/graphForFibCalculations.png) - Graph that is output after fib.py completes successfully, contains line graph showing time relation to fib calcs.<br>
 
 I noticed the calculation time between fib terms 77 and 78 had a significant jump, I was unable to determine how to optimize the program any further.
 
