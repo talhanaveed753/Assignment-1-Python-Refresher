@@ -4,7 +4,6 @@ import functools
 import time
 from functools import lru_cache
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Create a global variable to hold the time data
 allTimes = []
