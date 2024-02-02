@@ -1,4 +1,4 @@
-#fib.py
+# fib.py
 
 import functools
 import time
@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 # Create a global variable to hold the time data
 allTimes = []
+
 
 def timer(func):
     """Time each fib calculation"""
@@ -33,6 +34,7 @@ def timer(func):
 
     return wrapperTimer
 
+
 @lru_cache
 @timer
 def fib(n: int) -> int:
@@ -42,6 +44,7 @@ def fib(n: int) -> int:
         return n
     return fib(n - 1) + fib(n - 2)
 
+
 def graphData():
     """Graph results"""
 
@@ -50,11 +53,12 @@ def graphData():
 
     # Plot and display the graphed data
     plt.plot(x, allTimes)
-    plt.title("Time to Calculate nth Fibonacci")    # Title of the graph
-    plt.xlabel("nth Fibonacci number")              # X-axis label
-    plt.ylabel("Time to Calculate (seconds)")       # Y-axis label
-    plt.show()                                      # Display the plot
+    plt.title("Time to Calculate nth Fibonacci")  # Title of the graph
+    plt.xlabel("nth Fibonacci number")  # X-axis label
+    plt.ylabel("Time to Calculate (seconds)")  # Y-axis label
+    plt.show()  # Display the plot
+
 
 if __name__ == "__main__":
-    fib(100)    # Call to fib will calculate the desired values until nth value
-    graphData() # Create a graph to represent data
+    fib(100)  # Call to fib will calculate the desired values until nth value
+    graphData()  # Create a graph to represent data
